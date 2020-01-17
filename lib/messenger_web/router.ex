@@ -18,9 +18,4 @@ defmodule MessengerWeb.Router do
 
     get "/", PageController, :index
   end
-
-  # Other scopes may use custom stacks.
-  # scope "/api", MessengerWeb do
-  #   pipe_through :api
-  # end
 end

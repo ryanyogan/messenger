@@ -8,7 +8,7 @@ defmodule Messenger.Chat.Message do
   schema "chat_messages" do
     field :content, :string
 
-    belongs_to :converation, Conversation
+    belongs_to :conversation, Conversation
     belongs_to :user, User
 
     has_many :seen_messages, SeenMessage
